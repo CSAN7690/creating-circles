@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    
+}
+
+button {
+  width: 120px;
+  height: 40px;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 75px);
+  z-index: 10;
+  align-items: center;
+
+  border: none;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 800;
+  background: rgba(250, 42, 0, 0.934);
+  color: white;
+  cursor: pointer;
+}
+
+div {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 1em;
+    align-self: center;
+    display: grid;
+    background-color: white;
+  }
+
+  .container{
+
+    border:1px solid red
+    
+    }
